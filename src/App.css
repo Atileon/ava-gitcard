@@ -1,0 +1,119 @@
+/* =========FONTS ===== 
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif; 
+
+================= */
+a{
+  color: white;
+  text-decoration: none;
+}
+#ava-github{
+  color: white;
+  position: relative;
+  width: 450px;
+  min-height: 700px;
+  background: rgba(4, 93, 153, 0.5);
+  margin: 5em auto;
+  border: .5px solid rgba(2, 238, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0px 0px 60px 10px rgba(2, 238, 255, 0.733);
+}
+.loading{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url('./img/octocatLoading.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+}
+.avatar-container{
+  perspective: 600px;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: 110px;
+  top: -60px;
+  border-bottom: .5px solid rgba(2, 238, 255, 0.9);
+  /* background: rgb(82, 0, 0); */
+}
+.avatar-img{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  background: rgb(77, 77, 77);
+  border: 1px solid rgba(2, 238, 255, 0.9);
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0px 3px 4px black;
+  transition: all .7s ease-in-out;
+}
+.avatar-img:hover{
+  transform: translateY(50px) translateZ(200px);
+}
+#header{
+  margin: 0 auto;
+  width: 70%;
+  /* background: orange; */
+  text-align: center;
+}
+.title{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0;
+  padding: .5em;
+  font-size: 1.8em;
+}
+.website{
+  font-family: 'IBM Plex Sans', sans-serif; 
+  padding: .5em;
+  margin: 0 auto;
+}
+.website a{
+  font-size: 1.2em;
+  color: rgb(255, 0, 0);
+}
+
+#content{
+  perspective: 700px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.bios,.hireable{
+  margin-bottom: 1em;
+  /* background: rgba(6, 52, 83, 0.616); */
+  border-radius: 15px;
+  border-bottom: 1px solid white;
+  /* box-shadow: 0px 0px 9px 0px rgb(106, 195, 255); */
+  align-self: center;
+  align-content: center;
+  justify-content: center;
+}
+p{
+  padding: .7em;
+  margin: 0;
+}
+.repo-span{
+  color:red;
+}
+.git-link{
+  margin-top: 2em;
+}
+.git-link a{
+  text-shadow: 0px 3px 4px black;
+  display: inline-block;
+  /* background: gray; */
+  transition:all .7s ease-in-out;
+}
+.git-link a:hover {
+  transform: rotateY(360deg);
+  text-shadow: none;
+}
